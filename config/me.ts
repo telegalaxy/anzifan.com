@@ -3,12 +3,13 @@ import { Gmail, Java, Python , Javascript, Typescript, Swift, Mysql, Realm, Mong
 
 export const me = {
     site: "https://www.anzifan.com",
-    name: '异次元de机智君💯',
+    name: 'TeleGalaxy',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
         ...links,
         {
-            url: 'mailto:541297173@qq.com',
+            url: 'mailto:2541647562@qq.com', 
+            // mailto:541297173@qq.com
             icon: Gmail,
             name: 'Email',
             fill: "fill-gray-400",
@@ -23,82 +24,44 @@ export const me = {
     ],
     education: [
         {
-            name: 'Nanjing University of Posts and Telecommunications',
-            time: '2016-2020',
-            degree: 'BS, Computer Science',
-            color: 'blue',
+            name: '小学',
+            time: '2017-2021',
+            degree: '小学',
+            color: 'green',
             logo : "/static/images/njupt.png",
-        },
-        {
-            name: 'New York Institute of Technology',
-            time: '2016-2020*',
-            degree: 'BS, Computer Science',
-            color: 'yellow',
-            logo : "/static/images/nyit.png",
-        },
-        {
-            name: 'Northeastern University',
-            time: '2021-2022',
-            degree: 'MS, Computer Software Engineering',
-            color: 'red',
-            logo : "/static/images/neu.png",
         }
     ],
     publications: [
         {
-            title: 'Exploration of Acoustic and Lexical Cues for the INTERSPEECH 2020 Computational Paralinguistic Challenge',
+            title: '暂时无获奖记录',
             authors: [
-                { name: "Ziqing Yang", },
                 {
-                    name: "Zifan An",
+                    name: "'TeleGalaxy'",
                     me: true
-                },
-                { name: "Zehao Fan" },
-                { name: "Chengye Jing" },
-                { name: "Houwei Cao*" }
+                }
             ],
             website: "https://sites.google.com/nyit.edu/seniorproject2020-interspeech",
             link: "https://par.nsf.gov/biblio/10282648-exploration-acoustic-lexical-cues-interspeech-computational-paralinguistic-challenge",
             tags: [
                 {
-                    name: "INTERSPEECH 2020",
+                    name: "无",
                     color: "blue"
-                },
-                {
-                    name: "NYIT",
-                    color: "yellow"
-                },
-                {
-                    name: "lexical features",
-                    color: "red"
-                },
-                {
-                    name: "fisher vector",
-                    color: "green"
-                },
-                {
-                    name: "model fusion",
-                    color: "purple"
-                },
-                // {
-                //     name: "Computational Paralinguistic Challenge",
-                //     color: "green"
-                // }
+                }
             ]
         }
     ],
     projects: [
         {
-            name: "Astraios",
-            description: "A GitHub Star Management App, based on SwiftUI and Combine.",
-            tip: "Coming Soon on App Store",
+            name: "Hexo Theme Indigo",
+            description: "极简，三栏，富有活力的主题。",
+            tip: "Coming Soon",
             images: ["/static/images/Astraios/4.png", "/static/images/Astraios/3.png", "/static/images/Astraios/2.png", "/static/images/Astraios/5.png", "/static/images/Astraios/7.png"],
             icon: "/static/images/Astraios/astraios.png",
         },
         {
-            name: "Pokémon Recommender",
-            description: "A iOS Pokédex with an original recommendation algorithm that considers multiple factors",
-            tag: ["Web Crawler","Database Design","Recommendation algorithm"],
+            name: "ValaxyTheme Indigo",
+            description: "双栏二次元主题，使用全新的。",
+            tag: ["New","配色统一","微拟物"],
             video: "/static/videos/pokemon.mp4",
             icon: "/static/images/pokemon.png"
         }

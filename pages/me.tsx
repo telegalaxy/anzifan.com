@@ -73,7 +73,7 @@ const Overview = () => {
                     Hey there 👋
                 </div>
                 <div className="text-lg font-semibold xs:text-2xl sm:text-3xl md:text-4xl whitespace-nowrap">
-                    {`I'm Zifan An `}
+                    {`I'm Shengyu Zhou `}
                     {/* <span className="text-sm">(a guy)</span> */}
                 </div>
                 {/* </div> */}
@@ -84,7 +84,7 @@ const Overview = () => {
                     Intersted in</p>
                 <div className="text-center">
                     <p className="text-sm font-semibold xs:text-xl sm:text-2xl md:text-3xl">
-                        Web & Mobile Development, Machine Learning
+                        Web Development, Student
                     </p>
 
                 </div>
@@ -108,10 +108,10 @@ const Overview = () => {
                             Gamer
                         </span>
                         <span className="inline-block mr-2 text-transparent bg-clip-text bg-gradient-to-r from-true-gray-400 to-gray-500">
-                            Writer
+                            Loser
                         </span>
                         <span className="inline-block text-xs text-red-500 line-through xs:text-sm ">
-                            Musician
+                            Writer
                         </span>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ const Overview = () => {
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" className={`${style} overflow-hidden !justify-end relative`}>
                 {/* p-4 xs:p-4.5 sm:p-6 md:p-8  */}
                 <p className="z-10 py-2 px-4 xs:px-4.5 sm:px-3 md:px-6 -m-4 xs:-m-4.5 sm:-m-6 md:-m-8 text-xs sm:text-lg font-semibold opacity-90 bg-gray-200 md:text-xl" dark="bg-gray-700">
-                    <span className="text-gray-600" dark="text-gray-400">Located in</span> Seattle, WA
+                    <span className="text-gray-600" dark="text-gray-400">Located in</span> Wuxi, China
                 </p>
                 <LocationMap />
             </div>

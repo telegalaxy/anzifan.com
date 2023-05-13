@@ -1,4 +1,4 @@
-import { Github, Dribbble, Props, Linkedin } from '@icons-pack/react-simple-icons'
+import { Github, Dribbble, Props, Linkedin, Bilibili } from '@icons-pack/react-simple-icons'
 import { FC } from 'react'
 import Sspai from '../assets/sspai.svg'
 import Zhihu from '../assets/zhihu.svg'
@@ -18,25 +18,25 @@ export type LinkType = {
 
 export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType] = [
     {
-        url: 'https://github.com/MannyCooper',
+        url: 'https://github.com/telegalaxy',
         icon: Github,
         color: 'from-bg-[#24292f] to-bg-[#040d21]',
         fill: "fill-[#181717]",
         border: "border-[#181717]",
         text:"text-[#181717]",
         shadow: "shadow-true-gray-400",
-        id: "MannyCooper",
+        id: "TeleGalaxy",
         name: "GitHub"
     },
     {
         url: 'https://sspai.com/u/mannycooper/updates',
-        icon: Sspai,
+        icon: Bilibili,
         color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
         fill: "fill-[#da282a]",
         border: "border-[#da282a]",
         shadow: "shadow-red-300",
         text:"text-[#da282a]",
-        name: "少数派"
+        name: "B站"
     },
     {
         // # banned

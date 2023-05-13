@@ -29,7 +29,7 @@ const Footer = () => {
                     <nav className="py-4 flex justify-between items-center">
                         <Link href='/'>
                             <a>
-                                <Image className="" src="/static/images/favicon.png" alt="logo" width="20px" height="20px" />
+                                 <Image className="" src="/static/images/favicon.png" alt="logo" width="20px" height="20px" />
                             </a>
                         </Link>
                         <ThemeSwitch />
@@ -46,19 +46,19 @@ const Footer = () => {
                                         )}
                                     </div>
                                 </div>
-                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://github.com/MannyCooper/anzifan.com" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">MannyCooper</a></p>
+                                <p className="group">Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://github.com/MannyCooper/anzifan.com" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">TEA 作者MannyCooper</a></p>
                             </div>
                             <p className="flex flex-col items-end">
-                                <a className="hover:underline" href="https://anzifan-old.vercel.app" target="_blank" rel="noopener noreferrer">Old Blog</a>
+                                <p>TeleGalaxy @2023</p>
                             </p>
                         </div>
                         <div className="text-xs flex justify-between">
                             <div>
                                 <span>
-                                    {`Copyright © 2020-${thisYear} `}
+                                    {`Copyright © 2021-${thisYear} `}
                                     <Link href={"/me"}>
                                         <a className="text-true-gray-600 hover:underline" dark="text-true-gray-400">
-                                            安子璠
+                                            TeleGalaxy
                                         </a>
                                     </Link>
                                 </span>                                
