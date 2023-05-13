@@ -29,7 +29,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "GitHub"
     },
     {
-        url: 'https://sspai.com/u/mannycooper/updates',
+        url: 'https://space.bilibili.com/566916039',
         icon: Bilibili,
         color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
         fill: "fill-[#da282a]",
@@ -40,7 +40,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
     },
     {
         // # banned
-        url: 'https://www.zhihu.com/people/an-zi-fan-62',
+        url: 'https://www.zhihu.com/people/gan-jia-er',
         icon: Zhihu,
         color: 'from-true-gray-400 to-true-gray-300 dark:(from-true-gray-600 to-true-gray-500)',
         fill: "fill-[#0084FF]",
@@ -51,7 +51,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "知乎"
     },
     {
-        url: 'https://dribbble.com/anzifan',
+        url: 'https://dribbble.com/',
         icon: Dribbble,
         fill: "fill-[#EA4C89]",
         border: "border-[#EA4C89]",
@@ -61,7 +61,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: 'Dribbble'
     },
     {
-        url: 'http://linkedin.com/in/zifan-an/',
+        url: 'http://linkedin.com/',
         icon: Linkedin,
         fill: "fill-[#0A66C2]",
         border: "border-[#0A66C2]",

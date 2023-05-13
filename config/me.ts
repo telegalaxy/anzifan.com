@@ -2,14 +2,13 @@ import { links } from '../config/links'
 import { Gmail, Java, Python , Javascript, Typescript, Swift, Mysql, Realm, Mongodb, Html5, CssThree, ReactJs, Nodedotjs, Nextdotjs, Vuedotjs, Tailwindcss, Spring, Springboot, Stylus , Scikitlearn, Tensorflow, Docker, Git, Redis, Apachehadoop, Postman} from '@icons-pack/react-simple-icons'
 
 export const me = {
-    site: "https://www.anzifan.com",
+    site: "https://tblog.life",
     name: 'TeleGalaxy',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
         ...links,
         {
             url: 'mailto:2541647562@qq.com', 
-            // mailto:541297173@qq.com
             icon: Gmail,
             name: 'Email',
             fill: "fill-gray-400",
@@ -40,8 +39,8 @@ export const me = {
                     me: true
                 }
             ],
-            website: "https://sites.google.com/nyit.edu/seniorproject2020-interspeech",
-            link: "https://par.nsf.gov/biblio/10282648-exploration-acoustic-lexical-cues-interspeech-computational-paralinguistic-challenge",
+            website: "#",
+            link: "#",
             tags: [
                 {
                     name: "无",
